@@ -1,0 +1,11 @@
+#include<stdio.h>
+#define A 25
+#define B A + 5 << 2 + !5 + (1 & 2)* (3|2)
+#define C B + 5 && 6 /(A >> 1)
+#define D A * B + C % B
+void main(){
+   float l;
+   l = 2 * 5;
+   l -= 6;
+   memset(A, B, C);
+}

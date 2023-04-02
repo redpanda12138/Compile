@@ -1,0 +1,49 @@
+S→#A#
+A→A,B | B 
+B→C=B | C+=B | C-=B | C*=B | C/=B | C%=B | C 
+C→C||D | D 
+D→D&&E | E
+E→E|F | F 
+F→F^G | G 
+G→G&H | H 
+H→H==I | H!=I | I 
+I→I>J | I>=J | I<J | I<=J | J 
+J→J<<K | J>>K | K 
+K→K+L | K-L | L
+L→L*M | L/M | L%M | M 
+M→!M | N 
+N→N[]O 
+O→(A) | i
+
++= : a    -= : b    *= : c    /= : d	%= : e
+|| : f	  
+&& : g    
+|:p
+== : h    != : j	
+>= : k    <= : l
+<< : m    >> : n
+[] : o    
+
+
+(0)S→#A#(1)A→A,B(2)A→B (3)B→C=B (4)B→C+=B (5)B→C-=B (6)B→C*=B(7)B→C/=B (8)B→C%=B(9)B→C 
+(10)C→C||D (11)C→D (12)D→D&&E (13)D→E(14)E→E|F(15)E→F (16)F→F^G (17)F→G (18)G→G&H (19)G→H 
+(20)H→H==I(21)H→H!=I (22)H→I (23)I→I>J (24)I→I>=J (25)I→I<J (26)I→I<=J (27)I→J(28)J→J<<K 
+(29)J→J>>K (30)J→K (31)K→K+L (32)K→K-L 33)K→L(34)L→L*M(35)L→L/M (36)L→L%M (37)L→M (38)M→!M 
+(39)M→N (40)N→N[]O (41)0→(A)(42)0→i
+
+S→#A#
+A→A,B | B 
+B→C=B | CaB | CbB | CcB | CdB | CeB | C 
+C→CfD | D 
+D→DgE | E
+E→EpF | F 
+F→F^G | G 
+G→G&H | H 
+H→HhI | HjI | I 
+I→I>J | IkJ | I<J | IlJ | J 
+J→JmK | JnK | K 
+K→K+L | K-L | L
+L→L*M | L/M | L%M | M 
+M→!M | N 
+N→NoO 
+O→(A) | i

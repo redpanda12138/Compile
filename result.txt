@@ -1,0 +1,12 @@
+
+# include <stdio.h> 
+# define ADDR_START 0x20480000 
+# define ADDR_A 0x20480004 
+# define ADDR_B 0x2048000f 
+# define BUFFER_SIZE 1024 
+# define BUFFER_END 0x204803ff 
+# define PI 3.14 main ( ) { float r , l ; 
+scanf ( " % f " , & r ) ; 
+l *= 2 * 3.14 * r ; 
+memset ( 0x20480000 , 1024 , 0x00 ) ; 
+} 
